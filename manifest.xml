@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns="https://update4j.org/schema/4.0/config" version="1.0.0">
+  <base uri="https://raw.githubusercontent.com/conectcras-ai/Update-SCFV/main/" path="${user.dir}/" />
+  <properties>
+    <property key="app.name" value="Conect SCFV" />
+    <property key="app.version" value="1.0.0" />
+    <property key="vendor" value="SEMAS" />
+  </properties>
+  <files>
+    <file path="app/ConectSCFV-1.0.0-all.jar" uri="app/ConectSCFV-1.0.0-all.jar" />
+  </files>
+  <launch>
+    <application mainClass="br.semas.sistemas.gestao.scfv.app.App">
+      <classpath>
+        <file path="app/ConectSCFV-1.0.0-all.jar" />
+      </classpath>
+      <jvmArgs>
+        <arg>-Dfile.encoding=UTF-8</arg>
+        <arg>-Duser.timezone=America/Sao_Paulo</arg>
+        <arg>-DLOG_DIR=C:/ProgramData/ConectSCFV/logs</arg>
+      </jvmArgs>
+    </application>
+  </launch>
+</configuration>
