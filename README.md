@@ -11,4 +11,4 @@ Estrutura esperada:
 
 Para o botao Sobre > Atualizar sistema detectar nova versao, a versao do manifest precisa ser maior que a versao instalada.
 
-Versao publicada: 1.0.34.
+Versao publicada: 1.0.35.
