@@ -1,8 +1,8 @@
 # Update-SCFV
 
-Versão publicada: 1.0.38.
+Versão publicada: 1.0.40.
 
-Grupos com múltiplos dias/horários, filtro Ativos/Todos/Inativos, duplo clique para editar, vínculo em lote com busca por nome/CPF/NIS/QR, nenhuma pessoa pré-selecionada, validação de vagas, idade e data de início. Geração da agenda preserva sessões existentes e canceladas. 54 testes passaram. Atualize primeiro o CRAS 1.0.32 no servidor e confirme a migração V2026_10_08_01. O SCFV não executa migrações. Grupos, vínculos em lote e geração de agenda exigem conexão central para validação transacional. Validação visual e execução da migração no MySQL de laboratório ainda pendentes.
+Autorização de exceção etária com justificativa obrigatória, ID/login/nome do usuário autenticado e data/hora do servidor. Histórico consultável em Participantes vinculados > Autorizações. Vínculo e autorização usam a mesma transação. Inclui o formulário compacto de grupo com seleção de Dia/dias da semana. Atualize primeiro o CRAS 1.0.33 e confirme a migração V2026_10_08_02, depois todos os clientes SCFV; versões antigas não geram esta auditoria. Autorizações antigas não são retroativamente atribuídas. Testes automatizados isolados passaram; validação visual e execução no MySQL ainda pendentes.
 
 Canal: https://github.com/conectcras-ai/Update-SCFV
 
