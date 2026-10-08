@@ -11,7 +11,11 @@ Estrutura esperada:
 
 Para o botao Sobre > Atualizar sistema detectar nova versao, a versao do manifest precisa ser maior que a versao instalada.
 
-Versao publicada: 1.0.36.
+Versao publicada: 1.0.37.
+
+Nesta versão: removidos os botões Atualizar internos, mantendo o geral do topo;
+QR Code com apenas o Fechar do rodapé; avisos específicos de CPF/NIS duplicado.
+Sem nova migração de banco. 39 testes automatizados passaram sem falhas.
 
 Novo Cadastro: responsável identificado pelo ID central, vínculo e origem
 detalhada persistidos; cadastro central e inscrição salvos em uma única transação.
