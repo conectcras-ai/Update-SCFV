@@ -1,8 +1,8 @@
 # Update-SCFV
 
-Versão publicada: 1.0.43.
+Versão publicada: 1.0.44.
 
-Corrige o menu de Dia/dias da semana: a seta abre os sete dias com caixas de seleção, permitindo marcar vários dias. Mantém a borda e seta padronizadas. O popup real do tema é substituído, evitando a lista com apenas Segunda-feira da versão 1.0.42. 67 testes passaram, com regressão para as sete caixas e cliques múltiplos; campo e menu renderizados e inspecionados. Não exige migração nova.
+Consulta os dados atuais de participantes vinculados ao cadastro central, melhora mensagens de CPF/NIS duplicados, validação de faixa etária, capacidade e campos condicionais. Mantém o menu dos dias aberto durante várias marcações, ajusta o resumo de vagas e permite anexos de até 25 MB sem modificar o original. 74 testes passaram. Não exige migração nova. Dados offline dependem da última réplica. Esta versão não inclui a revisão de isolamento e integração dos outros programas.
 
 Canal: https://github.com/conectcras-ai/Update-SCFV
 
