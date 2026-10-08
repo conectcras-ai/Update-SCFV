@@ -1,8 +1,8 @@
 # Update-SCFV
 
-Versão publicada: 1.0.40.
+Versão publicada: 1.0.41.
 
-Autorização de exceção etária com justificativa obrigatória, ID/login/nome do usuário autenticado e data/hora do servidor. Histórico consultável em Participantes vinculados > Autorizações. Vínculo e autorização usam a mesma transação. Inclui o formulário compacto de grupo com seleção de Dia/dias da semana. Atualize primeiro o CRAS 1.0.33 e confirme a migração V2026_10_08_02, depois todos os clientes SCFV; versões antigas não geram esta auditoria. Autorizações antigas não são retroativamente atribuídas. Testes automatizados isolados passaram; validação visual e execução no MySQL ainda pendentes.
+Aplicador iniciado por WScript gráfico e PowerShell oculto; a autorização administrativa do Windows permanece quando necessária. A versão é lida da configuração empacotada no JAR, corrigindo a apresentação antiga 1.0.37 e a comparação após atualizar. Inclui auditoria de autorizações e formulário compacto de grupo da 1.0.40. Atualize primeiro o CRAS servidor para 1.0.34 e confirme a migração da auditoria. A publicação não instala automaticamente nos computadores.
 
 Canal: https://github.com/conectcras-ai/Update-SCFV
 
