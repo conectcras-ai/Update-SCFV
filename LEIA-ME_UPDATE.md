@@ -1,8 +1,8 @@
 # Update-SCFV
 
-Versão publicada: 1.0.41.
+Versão publicada: 1.0.42.
 
-Aplicador iniciado por WScript gráfico e PowerShell oculto; a autorização administrativa do Windows permanece quando necessária. A versão é lida da configuração empacotada no JAR, corrigindo a apresentação antiga 1.0.37 e a comparação após atualizar. Inclui auditoria de autorizações e formulário compacto de grupo da 1.0.40. Atualize primeiro o CRAS servidor para 1.0.34 e confirme a migração da auditoria. A publicação não instala automaticamente nos computadores.
+Dia/dias da semana usa o mesmo campo padrão de Faixa etária, com borda e seta nativas do tema à direita. Remove o botão muito arredondado e o caractere que aparecia como quadrado. Mantém seleção múltipla, horários, auditoria e atualizador silencioso da versão anterior. Renderização Swing inspecionada; 66 testes passaram. Esta atualização não exige migração nova.
 
 Canal: https://github.com/conectcras-ai/Update-SCFV
 
