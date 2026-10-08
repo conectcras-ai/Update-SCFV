@@ -1,8 +1,8 @@
 # Update-SCFV
 
-Versão publicada: 1.0.42.
+Versão publicada: 1.0.43.
 
-Dia/dias da semana usa o mesmo campo padrão de Faixa etária, com borda e seta nativas do tema à direita. Remove o botão muito arredondado e o caractere que aparecia como quadrado. Mantém seleção múltipla, horários, auditoria e atualizador silencioso da versão anterior. Renderização Swing inspecionada; 66 testes passaram. Esta atualização não exige migração nova.
+Corrige o menu de Dia/dias da semana: a seta abre os sete dias com caixas de seleção, permitindo marcar vários dias. Mantém a borda e seta padronizadas. O popup real do tema é substituído, evitando a lista com apenas Segunda-feira da versão 1.0.42. 67 testes passaram, com regressão para as sete caixas e cliques múltiplos; campo e menu renderizados e inspecionados. Não exige migração nova.
 
 Canal: https://github.com/conectcras-ai/Update-SCFV
 
