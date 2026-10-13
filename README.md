@@ -1,12 +1,11 @@
 # Update-SCFV
 
-Versão publicada: 1.0.44.
+Versão publicada: 1.0.45.
 
-Consulta os dados atuais de participantes vinculados ao cadastro central, melhora mensagens de CPF/NIS duplicados, validação de faixa etária, capacidade e campos condicionais. Mantém o menu dos dias aberto durante várias marcações, ajusta o resumo de vagas e permite anexos de até 25 MB sem modificar o original. 74 testes passaram. Não exige migração nova. Dados offline dependem da última réplica. Esta versão não inclui a revisão de isolamento e integração dos outros programas.
+Negativa de credencial/permissão/configuração não pode ser contornada por login em cache ou modo offline. Filtro de sigilo e público na réplica. Mantém as correções de cadastro/grupos/anexos anteriores.
 
-Canal: https://github.com/conectcras-ai/Update-SCFV
+79 testes passaram; 160 no conjunto dos cinco programas. Sem migração nova.
 
-Arquivos: manifest.xml, public.pem e app/ConectSCFV-1.0.0-all.jar.
-O manifesto é assinado e inclui versão, tamanho, checksum e assinatura do binário.
-O nome físico do JAR permanece estável para as instalações existentes.
-Use Sobre > Verificar / Atualizar agora. A publicação não instala automaticamente nos computadores.
+Use Sobre > Verificar / Atualizar agora e reinicie quando solicitado. O nome físico do JAR permanece estável. Manifesto e binário assinados; confira REVISAO_1.0.45.md para detalhes.
+
+Limitações: NÃO remove caches/anexos antigos, NÃO altera grants nem separa contas do banco e NÃO encerra a validação completa de todas as telas. A publicação não instala automaticamente nos computadores.
